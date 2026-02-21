@@ -18,8 +18,17 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-family: fantasy;
+            font-size: 50px;
             margin-bottom: 10px;
+            
+            background: linear-gradient(2deg, #f03674, #38df6f);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke: 1px rgb(255, 251, 251);  /* contorno negro */
+            font-weight: bold;
+
         }
 
         .gallery {
@@ -60,6 +69,15 @@
         .card-content p {
             color: #666;
             font-size: 0.9em;
+        }
+
+        .cuestionario{
+                max-width: 600px;
+                margin: 40px auto;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
         footer {
